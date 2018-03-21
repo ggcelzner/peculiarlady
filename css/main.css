@@ -1,7 +1,7 @@
 /****** BASE STYLE ******/
 
 body {
-  background: #f2f8fd;
+  background: #FFFAFA
   max-width: 1200px;
   margin: 0 auto;
 
@@ -22,138 +22,136 @@ body {
 
 /****** NAVIGATION for all pages ******/
 
-.nav {
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
-.nav ul {
-  list-style-type: none;
-  overflow: hidden;
-  width: 527px;
-  margin-left: 26%;
-
-}
-.nav ul li {
-  width: 100px;
-  height: 50px;
-  margin: 0px 30px;
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  float:left;
-}
-
-.nav ul li a {
+#nav {
+  list-style: none;
   text-align: center;
-  line-height: 50px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 15px;
-  color: #000000;
-  letter-spacing: 3px;;
+  margin-top: 70px;
+  width: 500px;
+  float: right;
+  margin-right: -100px;
 }
 
-.nav a:hover {
-  color: #f9064b;
+#nav li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+#nav a {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: black;
 }
 
 .home-button {
-  float:left;
-  margin-left: 50px;
-  margin-top: 0;
+  display: inline;
+  float: left;
+  margin-left: 25px;
+  margin-top: 50px;
+  clear: both;
 }
 
 /****** HOME PAGE ******/
 
-#mainlogo {
-  margin-left: 17%;
-  margin-top: 17%;
-  margin-bottom: 25%;
+#main-logo {
+   text-align: center;
+   clear: both;
 }
 
-#mainlogo img {
-  width: 800px;
+#main-logo img {
+  width:700px;
+  margin-top: 230px;
 }
 
 /****** ABOUT ******/
-
-.main-section {
-  width: 1200px;
-  height: auto;
+.about-me {
+  clear: both;
 }
-
-.section-one p {
+.about-me p {
   font-family: 'Forum', cursive;
-  font-size: 40px;
-  line-height:58px;
-  text-align: center;
-  width: 800px;
-  margin-left: 190px;
-  margin-top:120px;
+  font-size: 20px;
+  line-height:35px;
+  text-align: justify;
+  width: 700px;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 200px;
 }
-.vintborder {
-  margin-top: 40px;
-  margin-bottom: 90px;
-  margin-left:395px;
+
+.about-me img {
+  width:300px;
+  float: right;
+  display: inline-block;
+  margin-top: 70px;
+  margin-right: 100px;
 }
-.section-two,
-.section-three {
-  width: 300px;
-  height: 400px;
-  margin-bottom: 100px;
-  float: left;
+
+.skills {
+  width:100%;
+  background: #f7eeee;
+  clear:both;
 }
-.section-two {
-  margin-left: 270px;
-}
-.section-three {
-  background: white;
-  margin-left: 50px;
-}
-.section-three h2 {
-  font-family: 'Montserrat', sans-serif;
+.skills h2 {
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  letter-spacing: 2px;
-  text-align: center;
+  letter-spacing: 3px;
+  text-align: left;
   font-size: 30px;
-  border-bottom: 2px solid #f2f8fd;
-  padding-bottom: 20px;
+  margin-left: 100px;
 }
 
-.section-three li {
+.skills li {
   font-family: 'Forum', cursive;
-  text-align: center;
+  text-align: left;
   font-size: 22px;
   list-style-type: none;
   line-height: 32px;
-  padding-right: 35px;
 }
 
+.list-one {
+  width:300px;
+  float: left;
+  display: inline;
+  margin-left: 60px;
+  margin-bottom: 200px;
+  margin-top: 25px;
+}
+
+.list-two {
+  width: 300px;
+  float:left;
+  margin-bottom: 200px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
 /****** CONTACT ******/
-
-#contact {
-  height: 800px;
+.contact {
+  clear: both;
+  padding-top: 180px;
+  padding-bottom: 140px;
 }
-#contact img {
-  margin-top: 150px;
-  margin-bottom: -20px;
-}
-#contact h2 {
+.contact h2 {
   font-family: 'Forum', cursive;
-  font-size: 50px;
+  font-size: 40px;
+  text-align: center;
 }
-#contact p {
+.contact p {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  margin-top: -40px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 /****** FOOTER ******/
 
 .social {
-  margin-left: 446px;
-  margin-top: 120px;
+  margin-left: 500px;
+  margin-top: 200px;
   margin-bottom: 30px;
   clear: both;
 }
