@@ -1,7 +1,7 @@
 /****** BASE STYLE ******/
 
 body {
-  background: #FFFAFA
+  background: #f7eeee;
   max-width: 1200px;
   margin: 0 auto;
 
@@ -51,7 +51,7 @@ body {
 .home-button {
   display: inline;
   float: left;
-  margin-left: 25px;
+  margin-left: 100px;
   margin-top: 50px;
   clear: both;
 }
@@ -69,74 +69,69 @@ body {
 }
 
 /****** ABOUT ******/
+
+#big-text {
+  font-family: 'Barlow', sans-serif;
+  color:black;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-align: left;
+  padding: 10px;
+}
 .about-me {
   clear: both;
+  margin-top: 100px;
+  width: 500px;
+  height:820px;
+  margin-left: 100px;
+  float:left;
+
 }
 .about-me p {
-  font-family: 'Forum', cursive;
-  font-size: 20px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
   line-height:35px;
   text-align: justify;
-  width: 700px;
-  display: inline-block;
-  margin-left: 100px;
-  margin-top: 200px;
+  padding: 10px;
 }
 
-.about-me img {
-  width:300px;
-  float: right;
-  display: inline-block;
-  margin-top: 70px;
-  margin-right: 100px;
+.gigi {
+  width:500px;
+  float: left;
+  right: 0px;
+  top: 220px;
+  position: absolute;
 }
 
-.skills {
-  width:100%;
-  background: #f7eeee;
-  clear:both;
-}
-.skills h2 {
+#skill-head {
   font-family: 'Barlow', sans-serif;
-  font-weight: 400;
-  letter-spacing: 3px;
-  text-align: left;
-  font-size: 30px;
-  margin-left: 100px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color:black;
+  font-size: 25px;
+  padding: 10px;
 }
 
-.skills li {
-  font-family: 'Forum', cursive;
+.about-me li  {
+  font-family: 'Barlow', sans-serif;
   text-align: left;
-  font-size: 22px;
+  font-size: 16px;
   list-style-type: none;
   line-height: 32px;
 }
 
-.list-one {
-  width:300px;
-  float: left;
-  display: inline;
-  margin-left: 60px;
-  margin-bottom: 200px;
-  margin-top: 25px;
-}
-
-.list-two {
-  width: 300px;
-  float:left;
-  margin-bottom: 200px;
-  margin-top: 25px;
-  margin-left: 20px;
-}
 /****** CONTACT ******/
 .contact {
   clear: both;
   padding-top: 180px;
-  padding-bottom: 140px;
+  margin-bottom: 370px;
 }
 .contact h2 {
-  font-family: 'Forum', cursive;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-style:normal;
   font-size: 40px;
   text-align: center;
 }
@@ -150,20 +145,21 @@ body {
 /****** FOOTER ******/
 
 .social {
-  margin-left: 500px;
-  margin-top: 200px;
-  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
   clear: both;
 }
 
 .social a {
   padding: 20px;
   color: #000000;
-  font-family: Montserrat;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: lowercase;
   text-align: center;
   display: inline;
+  margin-top: 100px;
 
 }
