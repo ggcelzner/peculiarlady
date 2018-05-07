@@ -4,10 +4,16 @@
 <head>
   <title>Work | The Peculiar Lady</title>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="icon" href="img/favicon.png">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/queries.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts/ionicons.min.css">
+
+  
   <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600" rel="stylesheet">
 </head>
 
@@ -15,20 +21,53 @@
   <header>
     <div class="row">
         <a href="index.html"><img src="img/homebutton.png" alt="pl raven logo" class="home-button">
-        <ul class="main-nav">
+        <ul class="main-nav js--main-nav">
             <li><a href="about.html">About</a></li>
             <li><a href="work.html">Work</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
     </div>
  </header>
 
 <!-- MY WORK GRID -->
+      
+<main>
+      
+      <div class="row">
+            <div class="col span-1-of-2 col-one img-grid">
+                <ul>
+                    <a href="portfolio/ador-couture/ador.html"><img src="resources/img_grid/ador.png" alt="ador logo"></a>
+                    <a href="portfolio/the-daily/the-daily.html"><img src="resources/img_grid/thedaily.png" alt="the daily logo"></a>
+                    <a href="#"><img src="resources/img_grid/peclady.png" alt="pec lady logo"></a>
+                
+                </ul>
+                
+            
+            </div>
+            
+            <div class="col span-1-of-2 col-two img-grid">
+                
+                <ul>
+                    <a href="portfolio/the-bean/the-bean.html"><img src="resources/img_grid/thebean.png" alt="the bean logo"></a>
+                    <a href="portfolio/celzius/celzius.html"><img src="resources/img_grid/celzius.png" alt="celzius logo"></a>
+                    <a href="portfolio/jedwards/jedwards.html"><img src="resources/img_grid/jonathan.png" alt="jonathan logo"></a>
+                
+                </ul>
+                
+            </div>
+      </div>
+  
+      
+      
+      
+      
+</main>
 
 
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="resources/js/script.js"></script>
 
 </body>
 </html>

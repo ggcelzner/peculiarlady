@@ -5,12 +5,14 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #f7eeee;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
   font-family: Barlow;
+    overflow-x: hidden;
 }
 
 /* -----------  REUSABLE COMPONENTS  ------------------------- */
@@ -19,13 +21,19 @@ html {
     margin: 0 auto;
 }
 
-/****** NAVIGATION for all pages ******/
+.col {
+    padding: 0 auto;
+}
+
+
+/*--------------- NAVIGATION for all pages ---------------*/
 
 .home-button {
   height: 70px;
   width: auto;
   float: left;
-  margin-top: 30px;
+  margin: 30px 0 35px 0;
+  margin-bottom: 35px;
 }
 
 .main-nav {
@@ -57,7 +65,23 @@ html {
     border-bottom: 1px solid #f9064b;
 }
 
-/****** HOME PAGE ******/
+/* Mobile NAVI */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #f9064b;
+}
+
+/*-------- HOME PAGE --------*/
 
 #main-logo {
    text-align: center;
@@ -69,7 +93,8 @@ html {
   margin-top: 230px;
 }
 
-/****** ABOUT ******/
+/*-------- ABOUT --------*/
+
 
 #big-text {
   font-family: 'Barlow', sans-serif;
@@ -77,15 +102,12 @@ html {
   font-size: 30px;
   letter-spacing: 5px;
   text-align: left;
-  padding: 10px;
+  padding-top: 15%;
 }
+
 .about-me {
-  clear: both;
-  margin-top: 100px;
-  width: 500px;
-  height:820px;
-  margin-left: 100px;
-  float:left;
+  height:850px;
+  padding-left:5%;
 
 }
 .about-me p {
@@ -93,39 +115,128 @@ html {
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
-  line-height:35px;
+  line-height:32px;
   text-align: justify;
-  padding: 10px;
+  padding: 0px 10px 15px 10px;
+  width: 450px;
+  position: relative;
+  background-color: #f7eeee;
+
 }
+
 
 .gigi {
-  width:500px;
-  float: left;
-  right: 0px;
-  top: 220px;
-  position: absolute;
+  width: 450px;
+  margin-top: 9%;
+  margin-left: 5%; 
 }
 
+
+
 #skill-head {
+  width: 90px;
   font-family: 'Barlow', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   color:black;
   font-size: 25px;
-  padding: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  background-color: #f7eeee
 }
 
 .about-me li  {
+  width: 150px;
   font-family: 'Barlow', sans-serif;
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   list-style-type: none;
   line-height: 32px;
+  position: relative;
+  background-color: #f7eeee;
 }
 
-/****** CONTACT ******/
+/*-------WORK---------*/
+
+.img-grid img{
+    width: 70%;
+    margin-top: 10%;
+}
+ 
+.col-one img{
+    margin-left: 26%;
+}
+
+.col-two img{
+    margin-left: 4%;
+}
+
+/*-----------------------ADOR----------------------*/
+a {
+    font-weight: 500;
+    color:  #f9064b;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+
+
+.brand-name {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.description {
+    font-size: 14px;
+    margin: 0 15% 2% 15%;
+    line-height: 25px;
+}
+
+hr {
+    width: 5%;
+    margin: 0 auto;
+    
+}
+
+.portfolio-pics img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.portfolio-pics p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*-----------------------THE BEAN----------------------*/
+
+.the-bean img {
+    width: 70%;
+    margin-left: 23%;
+    padding-bottom:10px;
+    
+}
+
+.the-bean-two img {
+    width: 70%;
+    margin-left: 7%;
+    padding-bottom:10px;
+}
+
+
+/*-----------------------THE DAILY----------------------*/
+/*-----------------------CELZIUS----------------------*/
+/*-----------------------PECULIAR----------------------*/
+/*-----------------------JONATHAN----------------------*/
+
+/*--------CONTACT--------*/
+
+
 .contact {
-  clear: both;
   padding-top: 180px;
   margin-bottom: 370px;
 }
@@ -139,11 +250,18 @@ html {
 .contact p {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  margin-top: 30px;
+  margin-top: 15px;
   text-align: center;
 }
 
-/****** FOOTER ******/
+.poppies {
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 0;
+    
+}
+/*-------- FOOTER --------*/
 
 .social {
   width: 100%;
@@ -155,6 +273,7 @@ html {
   padding: 20px;
   color: #000000;
   font-family: 'Barlow', sans-serif;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 2px;
   text-decoration: none;
